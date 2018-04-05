@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'iid-use-module-bug_Example' do
+  pod 'iid-use-module-bug', :path => '../'
+
+  target 'iid-use-module-bug_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
