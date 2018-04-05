@@ -1,4 +1,5 @@
-use_frameworks!
+#use_frameworks!
+use_modular_headers!
 
 target 'iid-use-module-bug_Example' do
   pod 'iid-use-module-bug', :path => '../'
